@@ -24,7 +24,8 @@ The success of this project lies in its intelligent pipeline, where each compone
     -   **Modules:** `main_node.py` and `utils.py`
 
 ### Visual Workflow
-```[Camera Frame]
+```
+[Camera Frame]
       |
       V
 [YOLO-NAS: Detects "a person is here"]
@@ -103,7 +104,8 @@ rosrun your_project_folder your_camera_node.py
 **Terminal 3: Launch the Human Follower Node**
 Start the main application.
 ```bash
-rosrun your_project_folder main_node.py```
+rosrun your_project_folder main_node.py
+```
 An OpenCV window will pop up, and your robot will spring to life!
 
 ## 🔧 Configuration & Tuning
@@ -117,8 +119,6 @@ Easily tune the robot's behavior by editing these parameters.
 -   `P_ANGULAR_GAIN` & `P_LINEAR_GAIN`: Increase for a more aggressive robot; decrease for a more cautious one.
 -   `TARGET_Y2`: Controls the following distance.
 -   `MAX_LINEAR_SPEED` & `MAX_ANGULAR_SPEED`: Safety limits for your robot.
-
-
 
 ## 📬 Contact
 
